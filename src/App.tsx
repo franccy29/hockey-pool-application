@@ -1,9 +1,14 @@
 import React from "react";
+import { TopBanner } from "./components/top-banner/Top-Banner";
+import { AppStyled, FeatureStyled } from "./App.style";
 
 export const App = () => {
-    return (
-        <h1>
-           hockey
-        </h1>
-    )
+  return (
+  <AppStyled>
+    <TopBanner />
+    <FeatureStyled>
+      <span>hockey</span>
+    </FeatureStyled>
+  </AppStyled>
+  )
 }
